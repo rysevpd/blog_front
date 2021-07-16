@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- ==================== ==================== -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Pasha Lynx Blog</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <script type="text/javascript">
+    	$(window).scroll(function(e){
+    		parallax();
+    	});
+    	function parallax(){
+    		var scrolled = $(window).scrollTop();
+    		$('.bgparallax').css('top', -(scrolled*0.2)+'px')
+    	}
+    </script>
+</head>
+
+<body style="background-color:#440A67">
+    <!-- ==================== NAVBAR ==================== -->
+    <div class="bgparallax"></div>
+    
+	<div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+                <a class="navbar-brand" href="#">Pasha Lynx Blog</a>
+			</div>
+            
+			<div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+					<li class="nav-item dropdown">
+					   <a class="nav-link  dropdown-toggle navbar-brand" href="#" data-bs-toggle="dropdown">  Hover me  </a>
+						<ul class="dropdown-menu">
+						  	<li><a class="dropdown-item" href="#"> Программирование</a></li>
+						    <li><a class="dropdown-item" href="#"> Портфолио </a></li>
+						    <li><a class="dropdown-item" href="#"> Проекты </a></li>
+                            <li><a class="dropdown-item" href="#"> Саморазвитие </a></li>
+                            <li><a class="dropdown-item" href="#"> Увлечения </a></li>
+                            <li><a class="dropdown-item" href="#"> Контакты </a></li>
+                            <li><a class="dropdown-item" href="#"> Соц. сети </a></li>
+                            <li><a class="dropdown-item" href="#"> Сотрудничество/реклама </a></li>
+                            <li><a class="dropdown-item" href="#"> Донаты </a></li>
+						</ul>
+					</li>
+	
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+    <!-- ==================== ВСТУПИТЕЛЬНЫЙ БЛОК ==================== -->
+            <div class="col-lg-8 col-lg-offset-2">
+                <p class="animated fadeInDown">Приветствую тебя в моем блоге</p>
+				<div>
+				<a href="#about_me" class="brk-btn">
+					Обо мне
+				</a>
+				</div>
+
+			</div>
+        </div>
+    </div>
+    
+
+	<!-- ==================== МЕНЮ САЙТА ==================== -->
+        <section id="tarifs">
+		<div class="text-center">
+			<h2>Меню</h2>
+		</div>
+        <div class="tar">
+            <div class="col-lg-4 pricing_item_prog">
+				<h3>Программирование</h3>	
+				<a class="btn effect01" href="page_2/index.html">Читать</a>
+			</div>
+            
+			<div class="col-lg-4 pricing_item_portfolio">
+				<h3>Портфолио</h3>
+				<a class="btn effect01" href="page_2/index.html">Читать</a>
+			</div>
+            
+			<div class="col-lg-4 pricing_item_projects">
+				<h3>Проекты</h3>
+				<a class="btn effect01" href="page_2/index.html">Читать</a>
+					
+				
+			</div>
+			<div class="col-lg-4 pricing_item_self_develop">
+				<h3>Саморазвитие</h3>
+				<a class="btn effect01" href="page_2/index.html">Читать</a>
+            </div>
+			<div class="col-lg-4 pricing_item_hobby">
+				<h3>Увлечения</h3>	
+				<a class="btn effect01" href="page_2/index.html">Читать</a>
+            </div>
+			<div class="col-lg-4 pricing_item_contacts">
+				<h3>Контакты</h3>	
+				<a class="btn effect01" href="page_2/index.html">Читать</a>
+            </div>
+        </div>
+        </section>
+		<!-- ==================== ОБО МНЕ ==================== -->
+		<section id="about_mee">
+		
+		<div class="text-center">
+			
+			<h2 id="about_me" style="padding-top: -400px; margin-top: 400px;">КТО Я</h2>
+		</div>
+		<div class="text_about_me">
+			Салют! Меня зовут Паша, я бэкенд программист, мое оружие - Python, Linux, SQL.<br>
+			Познакомился с программированием в 2017, и сразу почувствовал, что хочу связать с этим свою жизнь.<br><br>
+			Чему посвящен мой блог? Тут можно найти много, о простых статей про основы баз данных, парсинга и прочих тем, до объяснения того, как устроены некоторые мехники в играх, разборы программ и мои собственные попытки создания чего-то нового.<br><br>
+			Да ладно, я тоже человек. Помимо строк кода тут можно найти и обзоры на понравившиеся мне книги, причем разной тематики: это может быть и Дейл Карнеги, и современное фэнтези.<br>
+			Помимо этого я так же пишу и о жизни.
+			Моя глобальная цель - создать собственную IT-компанию, занимающюся анализом данных.
+		</div>
+		</section>
+		<!-- ==================== ВСТУПИТЕЛЬНЫЙ БЛОК + ОБО МНЕ ==================== -->
+		<section id="footer">
+		  <!-- Site footer -->
+		  
+			<footer class="site-footer">
+			  <div class="container">
+				<div class="row">
+				  <div class="col-sm-12 col-md-6">
+					<h6>About</h6>
+					<p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+				  </div>
+
+				  <div class="col-xs-6 col-md-3">
+					<h6>Categories</h6>
+					<ul class="footer-links">
+					  <li><a href="http://scanfcode.com/category/c-language/">Программирование</a></li>
+					  <li><a href="http://scanfcode.com/category/front-end-development/">Портфолио</a></li>
+					  <li><a href="http://scanfcode.com/category/back-end-development/">Проекты</a></li>
+					  <li><a href="http://scanfcode.com/category/java-programming-language/">Саморазвитие</a></li>
+					  <li><a href="http://scanfcode.com/category/android/">Увлечения</a></li>
+					  
+					</ul>
+				  </div>
+
+				  <div class="col-xs-6 col-md-3">
+					<h6>Quick Links</h6>
+					<ul class="footer-links">
+					  <li><a href="http://scanfcode.com/contact/">Контакты</a></li>
+					  <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Соц. сети</a></li>
+					  <li><a href="http://scanfcode.com/privacy-policy/">Сотрудничество/реклама</a></li>
+					  <li><a href="http://scanfcode.com/sitemap/">Донаты</a></li>
+					</ul>
+				  </div>
+				</div>
+				<hr>
+			  </div>
+			  <div class="container">
+				<div class="row">
+				  <div class="col-md-8 col-sm-6 col-xs-12">
+					<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+				 <a href="#">Pasha Lynx</a>.
+					</p>
+				  </div>
+
+				  <div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="social-icons">
+					  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+					  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+					  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+					  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			</footer>
+			
+		
+		</section>
+		
+	
+	<script>
+	function res(){
+		var width = $('.col-lg-4').width();
+		$('.col-lg-4').height(width);
+	} res();
+
+	$( window ).resize(function() {
+		res();
+	});
+	
+	
+	
+	
+	$(document).ready(function(){
+	$("#menu").on("click","a", function (event) {
+	event.preventDefault();
+	var id = $(this).attr('href'),
+	top = $(id).offset().top;
+	$('body,html').animate({scrollTop: top}, 1500);
+	});
+}); 
+	</script>
+	
+
+</body>
+
+
+</html>

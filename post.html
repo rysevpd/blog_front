@@ -1,20 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
 <!-- ==================== ==================== -->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Pasha Lynx Blog</title>
-        <!-- Bootstrap core CSS -->
-        <link href="assets/css/bootstrap.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="assets/css/blog_pages.css" rel="stylesheet">
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Pasha Lynx Blog</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/blog_pages.css" rel="stylesheet">
 
-    </body>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <script type="text/javascript">
+    	$(window).scroll(function(e){
+    		parallax();
+    	});
+    	function parallax(){
+    		var scrolled = $(window).scrollTop();
+    		$('.bgparallax').css('top', -(scrolled*0.2)+'px')
+    	}
+    </script>
+</head>
+
+<body style="background-color:#393e46">
+   <div class="page">
+	  <header tabindex="0" style="display: flex; z-index: 99999;">Программирование</header>
+	  <div id="nav-container">
+		<div class="bg"></div>
+		<div class="button" tabindex="0" >
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</div>
+		<div id="nav-content" tabindex="0">
+		  <ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="blog_pages.html">Программирование</a></li>
+			<li><a href="blog_pages.html">Портфолио</a></li>
+			<li><a href="blog_pages.html">Проекты</a></li>
+			<li><a href="blog_pages.html">Саморазвитие</a></li>
+			<li><a href="blog_pages.html">Увлечения</a></li>
+			<li><a href="networks.html">Соц. сети</a></li>
+			<li><a href="cooperation.html">Сотрудничество</a></li>
+			<li><a href="donates.html">Донаты</a></li>
+			<li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
+		  </ul>
+		</div>
+	  </div>
+
+	  <main>
+		<div class="content">
+			<div class="post_all">
+                <div class="post_title">
+                    Название статьи
+                </div>
+			</div>
+			<div class="advertisement">
+				<div class="search_menu">
+				  <div class="container_1">
+					  <input type="search" id="search" placeholder="Что ищем?" />
+					  <button type="submit" class="fa fa-search" style="background-color: #222831; border: none;"></button>
+				  </div>
+				</div>
+				<div class="cloud_lite">
+					<div class="VPS_1">
+						<a href="https://webref.ru/recipe/2292">
+							<img src="assets/img/VPS.png" class="VPS" alt="Упс, тут должна быть рекламка">
+						</a>
+					</div>
+				</div>
+				<div class="telegram">
+					<div class="telegram_1">
+						<a href="https://t.me/s/bykaskaco">
+							<img src="assets/img/telega.jpg " class="telegram_photo" alt="Упс, тут должна быть аватарка нашей телеги">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </main>
+	</div>
+
+
+
+
+</body>
+
+
 </html>

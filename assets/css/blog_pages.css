@@ -627,3 +627,32 @@ input::placeholder {
   border-radius: 10px;
 }
 
+
+.post_all {
+  width: 70%;
+  float: left;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #222831;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 5px 9px 4px rgba(0,  0,  0, 0.61);
+  -moz-box-shadow: 6px 5px 9px 4px rgba(0,  0,  0, 0.61);
+  box-shadow: 6px 5px 9px 4px rgba(0,  0,  0, 0.61);
+
+}
+
+.post_title {
+  width: 100%;
+  height: 25rem;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  font-size: 8rem;
+  border-top-width: 2rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+
+}
